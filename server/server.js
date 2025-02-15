@@ -56,7 +56,7 @@ const start = async () => {
 app.use(express.json())
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost' // Замените на ваш домен
+    origin: 'https://mechanizatory.ru' // Замените на ваш домен
 }));
 app.use(cookieParser())
 app.use('/api', router)
