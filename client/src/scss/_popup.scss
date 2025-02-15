@@ -1,0 +1,116 @@
+.popup {
+    display: block;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    padding: 20px;
+    z-index: 9995;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #45ad37;
+    animation: popup .5s ease-in-out;
+
+    &-error {
+        background-color: #f76969;
+    }
+
+    @media (max-width: 1192px) {
+        width: 400px;
+    }
+    @media (max-width: 992px) {
+        width: 300px;
+    }
+    @media (max-width: 480px) {
+        width: 200px;
+        height: 200px;
+    }
+
+    &__container {
+        width: 100%;
+    }
+}
+
+@keyframes popup {
+    0%{
+      right: 60px;
+    }
+    50%{
+        right: 50px;
+
+    }
+    60%{
+        right: 40px;
+
+    }
+    70%{
+        right: 30px;
+
+    }
+    80%{
+        right: 20px;
+
+    }
+    90%{
+        right: 10px;
+
+    }
+    100%{
+        right: 0;
+
+    }
+  }
+
+  .line {
+    height: 3px;
+    width: 100%;
+    background-color: #ececec;
+    animation: line 5s ease-in-out;
+}
+
+  @keyframes line {
+    0%{
+      width: 0;
+    }
+    10%{
+        width: 10%;
+
+    }
+    20%{
+        width: 20%;
+
+    }
+    30%{
+        width: 30%;
+
+    }
+    40%{
+        width: 40%;
+
+    }
+    50%{
+        width: 50%;
+
+    }
+    60%{
+        width: 60%;
+
+    }
+    70%{
+        width: 70%;
+
+    }
+    80%{
+        width: 80%;
+
+    }
+    90%{
+        width: 90%;
+
+    }
+    100%{
+        width: 100%;
+
+    }
+  }

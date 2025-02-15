@@ -1,0 +1,6 @@
+User-agent: Googlebot
+User-agent: YandexBot
+User-agent: *
+Allow: /
+Disallow: /info
+Sitemap: https://mechanizatory.ru/sitemap.xml

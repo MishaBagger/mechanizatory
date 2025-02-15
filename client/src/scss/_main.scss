@@ -1,0 +1,30 @@
+.main {
+    width: 80%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 15px;
+
+    @media (max-width: 1300px) {
+        padding: 80px 10px;
+    }
+
+    @media (max-width: 768px) {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
