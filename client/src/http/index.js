@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const API_URL = `https://api.mechanizatory.ru`
+export const API_URL = `https://info.mechanizatory.ru`
 export const SRC_URL = `https://mechanizatory.ru`
 const $api = axios.create({
     withCredentials: true,
